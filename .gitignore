@@ -1,0 +1,27 @@
+# Visual Studio / .NET
+.vs/
+**/.vs/
+**/bin/
+**/obj/
+*.user
+*.suo
+*.pdb
+
+# Node
+**/node_modules/
+**/dist/
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+appsettings.Local.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs
+*.log
